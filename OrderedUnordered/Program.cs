@@ -16,6 +16,17 @@
             Console.WriteLine("Enter A Word ");
             string word1 = Console.ReadLine();
             unorderedList.UnOrdered(word);
+
+            //-------Simple Paranthesis Program------------
+            Console.WriteLine("Enter a word to search");
+            SimpleParanthesis parenthesesProgram = new SimpleParanthesis();
+            Console.WriteLine(parenthesesProgram.checkBalanced("Apple"));
+            Console.WriteLine(parenthesesProgram.checkBalanced("(]"));
+            Console.WriteLine(parenthesesProgram.checkBalanced("{"));
+            Console.WriteLine(parenthesesProgram.checkBalanced("{}"));
+
+
+
         }
     }
 }
